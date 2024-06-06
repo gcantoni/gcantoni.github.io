@@ -1,0 +1,571 @@
+:root {
+    --accent-color: #447fff;
+	
+    --accent-color-night: #447fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+u {
+	text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	
+	u {
+		text-decoration: underline;
+        text-decoration-color: var(--accent-color-night);
+	}
+	
+}
+
+body {
+	color: #282b30;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Barlow", sans-serif, Ubuntu;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.6;
+	background: #fff;
+	-webkit-font-smoothing: antialiased
+}
+
+@media (prefers-color-scheme:dark) {
+	body {
+		color: #fff;
+		background: #000;
+	}
+}
+
+footer,
+header,
+section {
+	position: relative;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 80px
+}
+
+@media (min-width:1800px) {
+	footer,
+	header,
+	section {
+		max-width: 1800px
+	}
+}
+
+@media (max-width:920px) {
+	footer,
+	header,
+	section {
+		padding: 0 60px
+	}
+}
+
+@media (max-width:760px) {
+	footer,
+	header,
+	section {
+		padding: 0 40px
+	}
+}
+
+@media (max-width:500px) {
+	footer,
+	header,
+	section {
+		padding: 0 30px
+	}
+}
+
+header {
+	padding-top: 80px;
+	padding-bottom: 40px
+}
+
+@media (max-width:920px) {
+	header {
+		padding-top: 50px;
+		padding-bottom: 20px
+	}
+}
+
+@media (max-width:760px) {
+	header {
+		padding-top: 40px
+	}
+}
+
+header .top {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap
+}
+
+header .top img#logo {
+	position: relative;
+	display: block;
+	margin: -28px auto -28px 0px;
+	border-radius: 50%;
+	box-shadow: 0 0 8px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+}
+
+header h1 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.2;
+	padding: 30px 0 12px
+}
+
+header h1+p {
+	font-size: 22px;
+	margin-bottom: 10px
+}
+
+header h1+p+p {
+	font-size: 18px;
+	margin-bottom: 40px
+}
+
+header h1+p+p b {
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 500;
+	padding: 1px 4px 2px;
+	margin-left: 2px;
+	border-radius: 4px;
+	background: #abb6c1
+}
+
+header h1+p+p b:first-of-type {
+	margin-right: 2px
+}
+
+@media (prefers-color-scheme:dark) {
+	header h1+p+p b {
+		color: #191b1f;
+		background: hsla(0, 0%, 100%, .9)
+	}
+}
+
+header ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -10px
+}
+
+header ul li {
+	margin: 10px
+}
+
+header ul li picture {
+	display: block;
+	height: 26px
+}
+
+header ul li.github a {
+	color: #fff;
+	background: rgba(40, 43, 48, .8)
+}
+
+@media (prefers-color-scheme:dark) {
+	header ul li.github a {
+		color: #282b30;
+		background: hsla(0, 0%, 100%, .9)
+	}
+}
+
+header ul li.github a:hover {
+	background: #282b30
+}
+
+@media (prefers-color-scheme:dark) {
+	header ul li.github a:hover {
+		background: #fff
+	}
+}
+
+header ul li.play a {
+	color: #fff;
+	background: rgba(61, 220, 132, .9)
+}
+
+@media (prefers-color-scheme:dark) {
+	header ul li.play a {
+		color: #191b1f;
+	    background: rgba(61, 220, 132, .9)
+    }
+}
+
+header ul li.play a:hover {
+	background: #3DDC84
+}
+
+header ul li a {
+	font-size: 18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 32px;
+	padding: 6px 14px;
+	transition: background .2s ease-in-out
+}
+
+header ul li a span {
+	padding: 0 2px 3px 8px
+}
+
+.bio {
+	text-align: center;
+	padding: 6px 20px 12px;
+	border-radius: 12px;
+	box-shadow: inset 0 0 0 1px rgba(171, 182, 193, .15);
+	background: rgba(171, 182, 193, .05)
+}
+
+@media (prefers-color-scheme:dark) {
+	.bio {
+		background: hsla(0, 0%, 100%, .03)
+	}
+}
+
+@media (max-width:500px) {
+	.bio {
+		padding: 6px 16px 12px
+	}
+}
+
+.bio p {
+	color: rgba(40, 43, 48, .8);
+	font-size: 16px;
+	font-weight: 500
+}
+
+@media (prefers-color-scheme:dark) {
+	.bio p {
+		color: #fff
+	}
+}
+
+@media (max-width:500px) {
+	.bio p {
+		font-size: 15px
+	}
+}
+
+.bio p:first-of-type {
+	margin-bottom: 4px
+}
+
+.bio p:first-of-type a {
+	color: rgba(40, 43, 48, .8)
+}
+
+@media (prefers-color-scheme:dark) {
+	.bio p:first-of-type a {
+		color: hsla(0, 0%, 100%, .8)
+	}
+}
+
+.bio p:first-of-type a:hover {
+	text-decoration: none
+}
+
+.bio p+p {
+	font-size: 14px
+}
+
+.bio p a.github {
+	position: relative;
+	color: #282b30;
+	text-decoration: none;
+	margin: 0 5px
+}
+
+@media (prefers-color-scheme:dark) {
+	.bio p a.github {
+		color: #fbfbfb
+	}
+}
+
+.bio p a.github:before {
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	background-size: contain
+}
+
+@media (prefers-color-scheme:dark) {
+	.bio p a.github:before {
+		background-size: contain
+	}
+}
+
+.bio p a.github:hover {
+	text-decoration: underline
+}
+
+.bio p img.avatar {
+	position: relative;
+	top: 6px;
+	margin: 0 4px 0 0;
+	border-radius: 50%;
+	box-shadow: 0 0 1px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px
+}
+
+@media (max-width:760px) {
+	section {
+		flex-direction: column
+	}
+}
+
+article {
+	padding: 20px 0;
+	width: calc(50% - 20px)
+}
+
+@media (min-width:1800px) {
+	article {
+		width: calc(50% - 40px)
+	}
+}
+
+@media (max-width:760px) {
+	article {
+		width: 100%
+	}
+}
+
+article:nth-child(odd) {
+	margin-right: 20px
+}
+
+@media (min-width:1800px) {
+	article:nth-child(odd) {
+		margin-right: 40px
+	}
+}
+
+@media (max-width:760px) {
+	article:nth-child(odd) {
+		margin-right: 0
+	}
+}
+
+article:nth-of-type(2n) {
+	margin-left: 20px
+}
+
+@media (min-width:1800px) {
+	article:nth-of-type(2n) {
+		margin-left: 40px
+	}
+}
+
+@media (max-width:760px) {
+	article:nth-of-type(2n) {
+		margin-left: 0
+	}
+}
+
+@media (max-width:760px) {
+	article#dark span {
+		display: block
+	}
+}
+
+article#custom span,
+article#plugins span {
+	display: block;
+	top: 0;
+	margin-right: 6px;
+	max-width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+article:last-child {
+	margin-right: 0
+}
+
+article h2 {
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 30px
+}
+
+article h2 span {
+	margin-right: 8px
+}
+
+article h2 code {
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 4px 6px;
+	background: #fbfbfb;
+	max-width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+@media (prefers-color-scheme:dark) {
+	article h2 code {
+		background: hsla(0, 0%, 100%, .03)
+	}
+}
+
+article img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 0 1px 0 rgba(40, 43, 48, .1), 0 6px 10px rgba(40, 43, 48, .1), 0 1px 2px rgba(40, 43, 48, .2)
+}
+
+.end {
+	margin-top: 40px;
+	padding: 50px 0 60px;
+	box-shadow: inset 0 1px 0 rgba(171, 182, 193, .15);
+	background: rgba(171, 182, 193, .05)
+}
+
+@media (prefers-color-scheme:dark) {
+	.end {
+		background: hsla(0, 0%, 100%, .03)
+	}
+}
+
+@media (max-width:920px) {
+	.end {
+		margin-top: 0;
+		padding: 30px 0 40px
+	}
+}
+
+footer {
+	font-size: 16px
+}
+
+footer ul {
+	flex-wrap: wrap;
+	margin: 0 -20px
+}
+
+footer ul,
+footer ul li {
+	display: flex;
+	align-items: center
+}
+
+footer ul li {
+	padding: 10px 20px
+}
+
+footer ul li.share:before {
+	width: 21px;
+	height: 18px;
+	background-size: contain
+}
+
+footer ul li.github:before,
+footer ul li.share:before {
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	margin-right: 6px
+}
+
+footer ul li.github:before {
+	width: 20px;
+	height: 20px;
+	background-size: contain
+}
+
+@media (prefers-color-scheme:dark) {
+	footer ul li.github:before {
+		background-size: contain
+	}
+}
+
+.bio p a.tweet {
+	position: relative;
+	color: #0091ff;
+	text-decoration: none
+}
+
+.bio p a.tweet:before {
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	width: 15px;
+	height: 12px;
+	margin-right: 2px;
+	background: url(https://giorgiocantoni.it/images/twitter.svg) no-repeat;
+	background-size: contain
+}
+
+.bio p a.tweet:hover {
+	text-decoration: underline
+}
+
+footer ul li.gcantoni img {
+	border-radius: 50%;
+	box-shadow: 0 0 1px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+}
+
+footer ul li.gcantoni img,
+footer ul li.wallpapers img {
+	position: relative;
+	top: 1px;
+	margin: 0 8px 0 0
+}
+
+footer ul li a {
+	color: #282b30;
+	font-weight: 500;
+	margin: 0 4px
+}
+
+@media (prefers-color-scheme:dark) {
+	footer ul li a {
+		color: #fff
+	}
+}
+
+footer ul li a:hover {
+	text-decoration: none
+}
+
+footer ul li:first-child a {
+	margin-left: 0
+}

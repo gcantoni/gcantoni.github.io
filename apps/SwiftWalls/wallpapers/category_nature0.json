@@ -1,0 +1,63 @@
+{
+  "Nature" : {
+          "UrlPreview0" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview0.jpg",
+          "Url0" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull0.jpg?raw=true",
+	  "Artist0": "Marco Capitanio",
+	  "Title0" : "Tuscan hills",
+	  
+          "UrlPreview1" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview1.jpg",
+          "Url1" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull1.jpg?raw=true",
+          "Artist1": "Jakob Owens",
+	  "Title1" : "Hawaii Coast",
+	  
+          "UrlPreview2" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview2.jpg",
+          "Url2" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull2.jpg?raw=true",
+          "Artist2": "Jakob Owens",
+	  "Title2" : "Body Of Water",
+	  
+          "UrlPreview3" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview3.jpg",
+          "Url3" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull3.jpg?raw=true",
+	  "Artist3": "Eberhard Grossgasteiger",
+	  "Title3" : "South Tyrol, Italy",
+	  
+          "UrlPreview4" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview4.jpg",
+          "Url4" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull4.jpg?raw=true",
+	  "Artist4": "Luca Bravo",
+	  "Title4" : "Lake of Braies, Italy",
+	  
+          "UrlPreview5" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview5.jpg",
+          "Url5" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull5.jpg?raw=true",
+	  "Artist5": "Vincent Guth",
+	  "Title5" : "Someroharju, Finland",
+	  
+          "UrlPreview6" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview6.jpg",
+          "Url6" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull6.jpg?raw=true",
+	  "Artist6": "Gemma Evans",
+	  "Title6" : "Finland",
+	  
+          "UrlPreview7" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview7.jpg",
+          "Url7" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull7.jpg?raw=true",
+	  "Artist7": "Elena Prokofyeva",
+	  "Title7" : "Icy Blue Mountain",
+	  
+          "UrlPreview8" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview8.jpg",
+          "Url8" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull8.jpg?raw=true",
+	  "Artist8": "Matthew Meijer",
+	  "Title8" : "Kenora, Canada",
+	  
+          "UrlPreview9" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_nature/collection1/wallPreview9.jpg",
+          "Url9" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_nature/collection1/wallFull9.jpg?raw=true",
+	  "Artist9": "Ivana Cajina",
+	  "Title9" : "Diablo Lake, United States",
+	  
+	  "UrlPreview10" : "https://images.unsplash.com/photo-1597146333334-9956865bc7f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80",
+          "Url10" : "https://unsplash.com/photos/TUOfms3uNa4/download?force=true",
+	  "Artist10": "Francesco Ungaro",
+	  "Title10" : "Portu Maga, SU, Italia",
+	  
+	  "UrlPreview11" : "https://images.unsplash.com/photo-1590394360184-26846f8ae95e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+          "Url11" : "https://unsplash.com/photos/UpR6FBeVvto/download?force=true",
+	  "Artist11": "Kuno Schweizer",
+	  "Title11" : "Wanaka, Neuseeland"
+    }
+}

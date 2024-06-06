@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+
+User-agent: *
+Disallow: /apps
+Disallow: /assets
+
+Sitemap: https://giorgiocantoni.it/sitemap.xml

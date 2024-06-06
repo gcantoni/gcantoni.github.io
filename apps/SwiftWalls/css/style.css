@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #FFFF;
+  color: #6e6e6e;
+  font-family: 'Manrope';
+}
+
+.app-logo {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 30px auto;
+  border-radius: 50%;
+  box-shadow: 0 0 1.12px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+}
+
+.app-name {
+  margin: 30px;
+  color: #000;
+}
+
+.center {
+  text-align: center;
+  margin: 30px;
+}
+
+.app-badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-badge {
+  width: 150px;
+  height: 60px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #202124;
+    color: #BDBDBD;
+  }
+  
+  .app-name {
+    margin: 30px;
+    color: #fff;
+}
+}

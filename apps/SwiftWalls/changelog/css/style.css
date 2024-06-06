@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+body {
+  font-family: 'Manrope';
+  margin: 0;
+  background: #F2F0F4;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35vh;
+  padding-top: 18px;
+  background: #F2F0F4;
+  color: white;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #000;
+}
+
+a {
+   color: #1472FF;
+}
+
+.app-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: 0 0 1.12px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+}
+
+.container {
+  max-width: 800px;
+  min-height: calc(100vh - 1.8em - 146px);
+  padding: 18px;
+  margin: calc(1.8em + 146px) auto 0 auto;
+  background: #FBF8FD;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.faqs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faqs li {
+  margin-bottom: 16px;
+}
+
+.faqs li a[href] * {
+  vertical-align: middle;
+}
+
+.faqs h3 {
+  display: inline;
+  margin-left: 6px;
+  font-weight: normal;
+}
+
+.faqs a[name] {
+  display: block;
+  margin-top: -25vh;
+  height: 25vh;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.faqs li img {
+  transform: rotate(-90deg);
+}
+
+.faqs li p {
+  display: none;
+}
+
+.faqs li.active img {
+  transform: none;
+}
+
+.faqs li.active p {
+  display: block;
+}
+
+.faqs li.active h3 {
+  font-weight: bold;
+}
+
+.faqs > li > a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1B1B1D;
+    color: white;
+  }
+  
+  header {
+    background: #1B1B1D;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    color: #fff;
+  }
+
+  a {
+    color: #82B1FF;
+  }
+
+  .container {
+    background: #303033 !important;
+    color: white;
+  }
+  
+  .faqs h3 {
+    color: white;
+  }
+
+  .faqs > li > a {
+    color: white;
+  }
+
+  .faqs > li > a > img {
+    filter: invert(100%);
+  }
+}
+
+@media only screen and (max-device-width : 640px) {
+	.container {
+        margin-bottom: 24px;
+        margin-right: 24px;
+        margin-left: 24px;
+}
+}

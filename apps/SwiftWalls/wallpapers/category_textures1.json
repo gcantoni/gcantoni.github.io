@@ -1,0 +1,64 @@
+{
+  "Textures" : {
+          "UrlPreview0" : "https://images.unsplash.com/photo-1606054512716-fb198b6686c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
+          "Url0" : "https://unsplash.com/photos/sqim3_0-siM/download?force=true",
+	  "Artist0": "Solen Feyissa",
+	  "Title0" : "Abstract Paint",
+    
+          "UrlPreview1" : "https://images.unsplash.com/photo-1486231328412-f20a348f9837?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80",
+          "Url1" : "https://unsplash.com/photos/6DD9FJYj0Vo/download?force=true",
+          "Artist1": "Aaron Burden",
+	  "Title1" : "Shades Of Blue",
+    
+          "UrlPreview2" : "https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80",
+          "Url2" : "https://unsplash.com/photos/LhlxYMfnTF0/download?force=true",
+          "Artist2": "Vincent Burkhead",
+	  "Title2" : "San Diego, USA",
+    
+          "UrlPreview3" : "https://images.unsplash.com/photo-1568561300108-e0c35b5f7c1c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=812&q=80",
+          "Url3" : "https://unsplash.com/photos/3TuIIkWlpvA/download?force=true",
+	  "Artist3": "Jason Dent",
+	  "Title3" : "Red Background",
+    
+          "UrlPreview4" : "https://images.unsplash.com/photo-1536338701933-9fb6ce505c48?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80",
+          "Url4" : "https://unsplash.com/photos/6SK6dWPdVZY/download?force=true",
+	  "Artist4": "Radoslav Bali",
+	  "Title4" : "Copenhagen, Denmark",
+    
+          "UrlPreview5" : "https://images.unsplash.com/photo-1557459254-ba5aec5acc0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+          "Url5" : "https://unsplash.com/photos/IfIfV2aMN8o/download?force=true",
+	  "Artist5": "Bryan Garces",
+	  "Title5" : "Grey",
+    
+          "UrlPreview6" : "https://images.unsplash.com/photo-1554755229-ca4470e07232?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
+          "Url6" : "https://unsplash.com/photos/ZdOW9Qd8mQo/download?force=true",
+	  "Artist6": "Wesley Tingey",
+	  "Title6" : "Sandstone",
+    
+          "UrlPreview7" : "https://images.unsplash.com/photo-1576718388983-e3ab696f2b8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+          "Url7" : "https://unsplash.com/photos/eMNevd6ErCU/download?force=true",
+	  "Artist7": "Wesley Tingey",
+	  "Title7" : "Red And White",
+    
+          "UrlPreview8" : "https://images.unsplash.com/photo-1546026502-797e11a59f50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+          "Url8" : "https://unsplash.com/photos/V8p9ql6-wGo/download?force=true",
+	  "Artist8": "Joel Naren",
+	  "Title8" : "Bay Lake, USA",
+    
+          "UrlPreview9" : "https://images.unsplash.com/photo-1581257107100-f952b3a5c451?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+          "Url9" : "https://unsplash.com/photos/Ur_NzyKfCo4/download?force=true",
+	  "Artist9": "Sharon McCutcheon",
+	  "Title9" : "New Hampshire, USA",
+	  
+	  "UrlPreview10" : "https://images.unsplash.com/photo-1541445823670-2363822bc5fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "Url10" : "https://unsplash.com/photos/f21Ymv5swDU/download?force=true",
+	  "Artist10": "Lubo Minar",
+	  "Title10" : "Namatjira, Australia",
+	  
+	  "UrlPreview11" : "https://images.unsplash.com/photo-1527072822261-d82e76bdb103?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "Url11" : "https://unsplash.com/photos/mfYFY0XnFug/download?force=true",
+	  "Artist11": "Steve Johnson",
+	  "Title11" : "Abstract Paint"
+    
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "Textures" : {
+          "UrlPreview0" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview0.jpg",
+          "Url0" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull0.jpg?raw=true",
+	  "Artist0": "Khai Truong",
+	  "Title0" : "Text of tree",
+    
+          "UrlPreview1" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview1.jpg",
+          "Url1" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull1.jpg?raw=true",
+          "Artist1": "Sharon McCutcheon",
+	  "Title1" : "Ogden, United States",
+    
+          "UrlPreview2" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview2.jpg",
+          "Url2" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull2.jpg?raw=true",
+          "Artist2": "Ryan Wilson",
+	  "Title2" : "Body of water",
+    
+          "UrlPreview3" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview3.jpg",
+          "Url3" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull3.jpg?raw=true",
+	  "Artist3": "Brian Patrick Tagalog",
+	  "Title3" : "Savage, United States",
+    
+          "UrlPreview4" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview4.jpg",
+          "Url4" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull4.jpg?raw=true",
+	  "Artist4": "Bryan Garces",
+	  "Title4" : "Purple and white",
+    
+          "UrlPreview5" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview5.jpg",
+          "Url5" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull5.jpg?raw=true",
+	  "Artist5": "Cassi Josh",
+	  "Title5" : "Blood vein texture",
+    
+          "UrlPreview6" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview6.jpg",
+          "Url6" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull6.jpg?raw=true",
+	  "Artist6": "Derek Thomson",
+	  "Title6" : "Rangeley, USA",
+    
+          "UrlPreview7" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview7.jpg",
+          "Url7" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull7.jpg?raw=true",
+	  "Artist7": "Ramin Khatibi",
+	  "Title7" : "Semnan, Iran",
+    
+          "UrlPreview8" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview8.jpg",
+          "Url8" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull8.jpg?raw=true",
+	  "Artist8": "Nick Nice",
+	  "Title8" : "Stones",
+    
+          "UrlPreview9" : "https://raw.githubusercontent.com/gcantoni/swiftWallWallpapers/master/category_textures/wallPreview9.jpg",
+          "Url9" : "https://github.com/gcantoni/swiftWallWallpapers/blob/master/category_textures/wallFull9.jpg?raw=true",
+	  "Artist9": "Jonas Denil",
+	  "Title9" : "Leuven, Belgium",
+	  
+	  "UrlPreview10" : "https://images.unsplash.com/photo-1542045272572-e55b8b5e79b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
+          "Url10" : "https://unsplash.com/photos/6n9JGobCASo/download?force=true",
+	  "Artist10": "Lubo Minar",
+	  "Title10" : "Namatjira, Australia",
+	  
+	  "UrlPreview11" : "https://images.unsplash.com/photo-1596403388251-f7d535c90341?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+          "Url11" : "https://unsplash.com/photos/5juQVF4CESM/download?force=true",
+	  "Artist11": "Jeremy Bishop",
+	  "Title11" : "Sand"
+    
+    }
+}
