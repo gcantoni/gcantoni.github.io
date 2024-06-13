@@ -1,6 +1,6 @@
 :root {
     --accent-color: #447fff;
-	
+
     --accent-color-night: #447fff;
 }
 
@@ -21,12 +21,12 @@ u {
 }
 
 @media screen and (prefers-color-scheme: dark) {
-	
+
 	u {
 		text-decoration: underline;
         text-decoration-color: var(--accent-color-night);
 	}
-	
+
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 @media (prefers-color-scheme:dark) {
 	body {
 		color: #fff;
-		background: #000;
+		background: #0c121e;
 	}
 }
 

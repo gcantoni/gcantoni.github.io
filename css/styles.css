@@ -30,7 +30,7 @@ body {
 @media (prefers-color-scheme:dark) {
 	body {
 		color: #fff;
-		background: #000;
+		background: #0c121e;
 	}
 }
 
@@ -161,36 +161,71 @@ header p a.google-play svg {
 }
 
 header p a.mad {
-	color: #00a1e0;
+	color: #223e80;
 	pointer-events: none;
-	background: rgba(0, 161, 224, .08)
+	background: rgba(34, 62, 128, .08)
 }
 
 header p a.mad:hover {
 	pointer-events: none;
-	background: rgba(0, 161, 224, .1)
+	background: rgba(34, 62, 128, .08)
 }
 
 header p a.ia {
-	color: #e0af00;
+	color: #223e80;
 	pointer-events: none;
-	background: rgba(224, 175, 0, .08)
+	background: rgba(34, 62, 128, .08)
 }
 
 header p a.ia:hover {
 	pointer-events: none;
-	background: rgba(224, 175, 0, 1)
+	background: rgba(34, 62, 128, .08)
 }
 
 header p a.mail {
-	color: #e00031;
+	color: #223e80;
 	pointer-events: none;
-	background: rgba(224, 0, 49, .08)
+	background: rgba(34, 62, 128, .08)
 }
 
 header p a.mail:hover {
 	pointer-events: none;
-	background: rgba(224, 0, 49, 1)
+	background: rgba(34, 62, 128, .08)
+}
+
+@media (prefers-color-scheme:dark) {
+header p a.mad {
+	color: #87a4e6;
+	pointer-events: none;
+	background: rgba(135, 164, 230, .08)
+}
+
+header p a.mad:hover {
+	pointer-events: none;
+	background: rgba(135, 164, 230, .08)
+}
+
+header p a.ia {
+	color: #87a4e6;
+	pointer-events: none;
+	background: rgba(135, 164, 230, .08)
+}
+
+header p a.ia:hover {
+	pointer-events: none;
+	background: rgba(135, 164, 230, .08)
+}
+
+header p a.mail {
+	color: #87a4e6;
+	pointer-events: none;
+	background: rgba(135, 164, 230, .08)
+}
+
+header p a.mail:hover {
+	pointer-events: none;
+	background: rgba(135, 164, 230, .08)
+}
 }
 
 header p:first-of-type {
@@ -360,8 +395,7 @@ article a {
 
 @media (prefers-color-scheme:dark) {
 	article a {
-		box-shadow: inset 0 0 0 0px hsla(0, 0%, 100%, .1);
-		background: #1C1C1E
+		background: #0b152b
 	}
 }
 
