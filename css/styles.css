@@ -30,7 +30,7 @@ body {
 @media (prefers-color-scheme:dark) {
 	body {
 		color: #fff;
-		background: #0c121e;
+		background: #000;
 	}
 }
 
@@ -161,71 +161,36 @@ header p a.google-play svg {
 }
 
 header p a.mad {
-	color: #223e80;
+	color: #00a1e0;
 	pointer-events: none;
-	background: rgba(34, 62, 128, .08)
+	background: rgba(0, 161, 224, .08)
 }
 
 header p a.mad:hover {
 	pointer-events: none;
-	background: rgba(34, 62, 128, .08)
+	background: rgba(0, 161, 224, .1)
 }
 
 header p a.ia {
-	color: #223e80;
+	color: #e0af00;
 	pointer-events: none;
-	background: rgba(34, 62, 128, .08)
+	background: rgba(224, 175, 0, .08)
 }
 
 header p a.ia:hover {
 	pointer-events: none;
-	background: rgba(34, 62, 128, .08)
+	background: rgba(224, 175, 0, 1)
 }
 
 header p a.mail {
-	color: #223e80;
+	color: #e00031;
 	pointer-events: none;
-	background: rgba(34, 62, 128, .08)
+	background: rgba(224, 0, 49, .08)
 }
 
 header p a.mail:hover {
 	pointer-events: none;
-	background: rgba(34, 62, 128, .08)
-}
-
-@media (prefers-color-scheme:dark) {
-header p a.mad {
-	color: #87a4e6;
-	pointer-events: none;
-	background: rgba(135, 164, 230, .08)
-}
-
-header p a.mad:hover {
-	pointer-events: none;
-	background: rgba(135, 164, 230, .08)
-}
-
-header p a.ia {
-	color: #87a4e6;
-	pointer-events: none;
-	background: rgba(135, 164, 230, .08)
-}
-
-header p a.ia:hover {
-	pointer-events: none;
-	background: rgba(135, 164, 230, .08)
-}
-
-header p a.mail {
-	color: #87a4e6;
-	pointer-events: none;
-	background: rgba(135, 164, 230, .08)
-}
-
-header p a.mail:hover {
-	pointer-events: none;
-	background: rgba(135, 164, 230, .08)
-}
+	background: rgba(224, 0, 49, 1)
 }
 
 header p:first-of-type {
@@ -395,7 +360,8 @@ article a {
 
 @media (prefers-color-scheme:dark) {
 	article a {
-		background: #0b152b
+		box-shadow: inset 0 0 0 0px hsla(0, 0%, 100%, .1);
+		background: #1C1C1E
 	}
 }
 
@@ -466,7 +432,7 @@ article.pixel-theme a:hover span {
 }
 
 article.pixel-tuner a span {
-	color: #447fff
+	color: #4764c0
 }
 
 @media (prefers-color-scheme:dark) {
@@ -476,7 +442,7 @@ article.pixel-tuner a span {
 }
 
 article.pixel-tuner a:hover span {
-	color: rgba(68, 127, 255, .8)
+	color: rgba(71, 100, 192, .8)
 }
 
 article.substratum a span {

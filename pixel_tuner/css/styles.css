@@ -1,7 +1,7 @@
 :root {
-    --accent-color: #447fff;
+    --accent-color: #4764c0;
 
-    --accent-color-night: #447fff;
+    --accent-color-night: #4764c0;
 }
 
 * {
@@ -42,7 +42,7 @@ body {
 @media (prefers-color-scheme:dark) {
 	body {
 		color: #fff;
-		background: #0c121e;
+		background: #000;
 	}
 }
 
