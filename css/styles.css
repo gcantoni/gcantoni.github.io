@@ -267,16 +267,16 @@ header ul li picture {
 	height: 26px
 }
 
-header ul li.twitter a {
-	box-shadow: 0 0 0 1px rgba(0, 145, 255, .2)
+header ul li.x a {
+	box-shadow: 0 0 0 3px rgba(40, 43, 48, .1)
 }
 
-header ul li.twitter a:hover {
-	background: rgba(0, 145, 255, .1)
+header ul li.x a:hover {
+	background: rgba(40, 43, 48, .05)
 }
 
 header ul li.linkedin a {
-	box-shadow: 0 0 0 1px rgba(40, 103, 178, .2)
+	box-shadow: 0 0 0 3px rgba(40, 103, 178, .2)
 }
 
 header ul li.linkedin a:hover {
@@ -284,7 +284,7 @@ header ul li.linkedin a:hover {
 }
 
 header ul li.stackoverflow a {
-	box-shadow: 0 0 0 1px rgba(244, 128, 36, .2)
+	box-shadow: 0 0 0 3px rgba(244, 128, 36, .2)
 }
 
 header ul li.stackoverflow a:hover {
@@ -292,14 +292,21 @@ header ul li.stackoverflow a:hover {
 }
 
 header ul li.github a {
-	box-shadow: 0 0 0 1px rgba(40, 43, 48, .1)
+	box-shadow: 0 0 0 3px rgba(40, 43, 48, .1)
 }
 
 @media (prefers-color-scheme:dark) {
 	header ul li.github a {
-		box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .1)
+		box-shadow: 0 0 0 3px hsla(0, 0%, 100%, .1)
 	}
 	header ul li.github a svg path {
+		fill: #fff
+	}
+
+	header ul li.x a {
+		box-shadow: 0 0 0 3px hsla(0, 0%, 100%, .1)
+	}
+	header ul li.x a svg path {
 		fill: #fff
 	}
 }
@@ -310,6 +317,10 @@ header ul li.github a:hover {
 
 @media (prefers-color-scheme:dark) {
 	header ul li.github a:hover {
+		background: hsla(0, 0%, 100%, .05)
+	}
+
+	header ul li.x a:hover {
 		background: hsla(0, 0%, 100%, .05)
 	}
 }
@@ -602,11 +613,11 @@ footer {
 	height: 26px
 }
 
-.four-oh-four ul li.twitter a {
+.four-oh-four ul li.x a {
 	box-shadow: 0 0 0 1px rgba(0, 145, 255, .2)
 }
 
-.four-oh-four ul li.twitter a:hover {
+.four-oh-four ul li.x a:hover {
 	background: rgba(0, 145, 255, .1)
 }
 
