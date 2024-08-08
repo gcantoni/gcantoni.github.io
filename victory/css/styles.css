@@ -1,6 +1,6 @@
 :root {
     --accent-color: #ef5350;
-	
+
     --accent-color-night: #ef5350;
 }
 
@@ -25,12 +25,12 @@ u {
 }
 
 @media screen and (prefers-color-scheme: dark) {
-	
+
 	u {
 		text-decoration: underline;
         text-decoration-color: var(--accent-color-night);
 	}
-	
+
 }
 
 body {
@@ -121,6 +121,13 @@ header .top img#logo {
 	margin: -28px auto -28px 0px;
 	border-radius: 50%;
 	box-shadow: 0 0 8px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+}
+
+@media (prefers-color-scheme:dark) {
+	header .top img#logo {
+		opacity: .8;
+		box-shadow: 0 0 16px rgba(40, 43, 48, .4), 0 1px 4px rgba(40, 43, 48, .1)
+	}
 }
 
 header h1 {

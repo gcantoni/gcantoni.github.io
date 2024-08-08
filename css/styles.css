@@ -417,7 +417,7 @@ article a img {
 
 @media (prefers-color-scheme:dark) {
 	article a img {
-		opacity: .9
+		opacity: .8
 	}
 }
 
