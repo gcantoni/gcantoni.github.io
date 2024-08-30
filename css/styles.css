@@ -752,8 +752,8 @@ footer {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background-color: #F0F0F5;
-    color: #8E8E93;
+    background-color: #ebebeb;
+    color: #828286;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -779,11 +779,11 @@ footer {
 @media (prefers-color-scheme: dark) {
 
     .close-btn {
-        background-color: #2c2c2e;
-        color: #f0f0f5;
+        background-color: #444d57;
+        color: #a8acb6;
     }
 
     .close-btn:hover {
-        background-color: #3a3a3c; 
+        background-color: #3a3a3c;
     }
 }
