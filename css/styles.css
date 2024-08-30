@@ -767,10 +767,6 @@ footer {
     text-align: center;
 }
 
-.close-btn:hover {
-    background-color: #E5E5EA;
-}
-
 .close-btn::before {
     content: '×';
     font-weight: bold;
@@ -781,9 +777,5 @@ footer {
     .close-btn {
         background-color: #444d57;
         color: #a8acb6;
-    }
-
-    .close-btn:hover {
-        background-color: #3a3a3c;
     }
 }
