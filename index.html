@@ -47,7 +47,15 @@
    </head>
    <body>
       <header>
-         <img id="avatar" src="images/me.jpeg" srcset="images/me.jpeg 2x,images/me.jpeg 3x" width="90" height="90">
+         <img id="avatar" src="images/me.jpg" srcset="images/me.jpg 2x,images/me.jpg 3x" width="100" height="100">
+         <div id="bottomSheet" class="bottom-sheet">
+            <div class="bottom-sheet-content">
+               <span class="close-btn" id="closeBottomSheet"></span>
+               <h2>Information</h2>
+               <p>My dad Carlo and I in Michael Schumacher's Ferrari in 2002</p>
+            </div>
+         </div>
+         <div class="fake-div">
          <h1>Hey! I'm Giorgio <span class="wave">👋</span></h1>
          <p>
             Industrial Computer Engineer and Independent Apps developer at
@@ -90,8 +98,10 @@
                </a>
             </li>
          </ul>
+       </div>
       </header>
       <section>
+        <div class="fake-div2">
          <h2>Featured apps</h2>
          <p></p>
          <div class="projects">
@@ -124,6 +134,9 @@
                </a>
             </article>
          </div>
+       </div>
       </section>
+
+    <script src="scripts/script.js"></script>
    </body>
 </html>
