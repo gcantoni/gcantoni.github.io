@@ -745,14 +745,14 @@ footer {
 .bottom-sheet-content h2 {
     text-align: center;
     margin-top: 0;
-		font-size: 28px;
-    margin-bottom: -15px;
+		font-size: 22px;
 }
 
-.bottom-sheet-content p {
+.bottom-sheet-content p.bottomsheet {
     text-align: center;
-    margin-top: 0;
+    margin-top: 8px;
 		font-size: 18px;
+		margin-bottom: 8px;
 }
 
 .blur-background {
@@ -785,6 +785,9 @@ footer {
 .close-btn::before {
     content: '×';
     font-weight: bold;
+		position: relative;
+    top: -1.8px;
+		right: -0.4px;
 }
 
 @media (prefers-color-scheme: dark) {
