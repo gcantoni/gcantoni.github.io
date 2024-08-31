@@ -787,7 +787,7 @@ footer {
     font-weight: bold;
 		position: relative;
     top: -1.8px;
-		right: -0.4px;
+		right: -0.3px;
 }
 
 @media (prefers-color-scheme: dark) {
